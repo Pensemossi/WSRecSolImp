@@ -1,0 +1,95 @@
+29/01/2020 9:11:37 a. m. Acceso a la Base de datos SICOQ exitoso.
+29/01/2020 9:11:37 a. m. Validación de usuario.
+29/01/2020 9:11:55 a. m. Formulario de Solicitud TML-I-0156001-20200110.
+29/01/2020 9:11:55 a. m. Validación de Tipo de Solicitud.
+29/01/2020 9:11:55 a. m. Validación de Clase de Importador.
+29/01/2020 9:11:55 a. m. Validación de Tipo de Cancelación.
+29/01/2020 9:11:55 a. m. Validación de Vía de Transporte.
+29/01/2020 9:11:55 a. m. Validación de Aduana.
+29/01/2020 9:11:55 a. m. Validación País.
+29/01/2020 9:11:55 a. m. País encontrado.
+29/01/2020 9:13:04 a. m. Se detecto un Tipo de Solicitud no válido [strTipoSolicitud] en GuardarSolicitudNueva.
+29/01/2020 9:16:59 a. m. Acceso a la Base de datos SICOQ exitoso.
+29/01/2020 9:16:59 a. m. Validación de usuario.
+29/01/2020 9:17:05 a. m. Formulario de Solicitud TML-I-0156001-20200110.
+29/01/2020 9:17:05 a. m. Validación de Tipo de Solicitud.
+29/01/2020 9:17:05 a. m. Validación de Clase de Importador.
+29/01/2020 9:17:05 a. m. Validación de Tipo de Cancelación.
+29/01/2020 9:17:05 a. m. Validación de Vía de Transporte.
+29/01/2020 9:17:05 a. m. Validación de Aduana.
+29/01/2020 9:17:05 a. m. Validación País.
+29/01/2020 9:17:05 a. m. País encontrado.
+29/01/2020 9:17:27 a. m. Se detecto un Tipo de Solicitud no válido [10] en GuardarSolicitudNueva.
+29/01/2020 9:18:27 a. m. Acceso a la Base de datos SICOQ exitoso.
+29/01/2020 9:18:27 a. m. Validación de usuario.
+29/01/2020 9:18:33 a. m. Formulario de Solicitud TML-I-0156001-20200110.
+29/01/2020 9:18:33 a. m. Validación de Tipo de Solicitud.
+29/01/2020 9:18:33 a. m. Validación de Clase de Importador.
+29/01/2020 9:18:33 a. m. Validación de Tipo de Cancelación.
+29/01/2020 9:18:33 a. m. Validación de Vía de Transporte.
+29/01/2020 9:18:33 a. m. Validación de Aduana.
+29/01/2020 9:18:33 a. m. Validación País.
+29/01/2020 9:18:33 a. m. País encontrado.
+29/01/2020 9:18:45 a. m. Listo para Insertar nueva Solicitud de Importación.
+29/01/2020 9:18:53 a. m. Insertando nueva Solicitud de Importación.
+29/01/2020 9:19:01 a. m. Validación de Puerto.
+29/01/2020 9:19:01 a. m. Obteniendo Id del país Dummy.
+29/01/2020 9:19:04 a. m. Recuperando Id del Puerto.
+29/01/2020 9:19:05 a. m. Insertando Puertos de Embarques asociado a la solicitud.
+29/01/2020 9:19:05 a. m. Actualizando Solicitudes especiales de la Solicitud.
+29/01/2020 9:19:05 a. m. Validación de Unidad.
+29/01/2020 9:19:06 a. m. Insertando Subpartidas.
+29/01/2020 9:19:07 a. m. Insertando Productos.
+29/01/2020 9:19:07 a. m. Validación País.
+29/01/2020 9:19:07 a. m. País encontrado.
+29/01/2020 9:19:07 a. m. Insertando País de Origen asociado al producto.
+29/01/2020 9:19:07 a. m. Insertando Productos.
+29/01/2020 9:19:07 a. m. Validación País.
+29/01/2020 9:19:07 a. m. País encontrado.
+29/01/2020 9:19:07 a. m. Insertando País de Origen asociado al producto.
+29/01/2020 9:19:07 a. m. Recuperando Info de la Solicitud recien creada.
+29/01/2020 9:19:07 a. m. Recuperando Id del tipo de Workflow.
+29/01/2020 9:19:07 a. m. Recuperando Id Estado Workflow.
+29/01/2020 9:19:08 a. m. Insertando Flujo en la Cola.
+29/01/2020 2:56:58 p. m. Acceso a la Base de datos SICOQ exitoso.
+29/01/2020 2:56:58 p. m. Validación de usuario.
+29/01/2020 2:57:08 p. m. Formulario de Solicitud TML-I-0157001-20200110.
+29/01/2020 2:57:08 p. m. Validación de Tipo de Solicitud.
+29/01/2020 2:57:08 p. m. Validación de Clase de Importador.
+29/01/2020 2:57:08 p. m. Validación de Tipo de Cancelación.
+29/01/2020 2:57:08 p. m. Validación de Vía de Transporte.
+29/01/2020 2:57:08 p. m. Validando Licencia.
+29/01/2020 2:57:08 p. m. Listo para Insertar entrada en FSLogErrores.
+29/01/2020 2:57:08 p. m. Insertando en la tabla [FSLogErrores].
+29/01/2020 3:03:41 p. m. Acceso a la Base de datos SICOQ exitoso.
+29/01/2020 3:03:41 p. m. Validación de usuario.
+29/01/2020 3:03:51 p. m. Formulario de Solicitud TML-I-0157001-20200110.
+29/01/2020 3:03:51 p. m. Validación de Tipo de Solicitud.
+29/01/2020 3:03:51 p. m. Validación de Clase de Importador.
+29/01/2020 3:03:51 p. m. Validación de Tipo de Cancelación.
+29/01/2020 3:03:51 p. m. Validación de Vía de Transporte.
+29/01/2020 3:03:51 p. m. Validando Licencia.
+29/01/2020 3:03:51 p. m. Validación de Aduana.
+29/01/2020 3:03:51 p. m. Validación País.
+29/01/2020 3:03:51 p. m. País encontrado.
+29/01/2020 3:04:08 p. m. Listo para Insertar nueva Solicitud de Importación.
+29/01/2020 3:04:27 p. m. Insertando nueva Solicitud de Importación.
+29/01/2020 3:04:27 p. m. Validación de Puerto.
+29/01/2020 3:04:40 p. m. Obteniendo Id del país Dummy.
+29/01/2020 3:04:40 p. m. Recuperando Id del Puerto.
+29/01/2020 3:04:40 p. m. Insertando Puertos de Embarques asociado a la solicitud.
+29/01/2020 3:04:40 p. m. Actualizando Solicitudes especiales de la Solicitud.
+29/01/2020 3:04:40 p. m. Validación de Unidad.
+29/01/2020 3:04:40 p. m. Insertando Subpartidas.
+29/01/2020 3:04:40 p. m. Insertando Productos.
+29/01/2020 3:04:40 p. m. Validación País.
+29/01/2020 3:04:40 p. m. País encontrado.
+29/01/2020 3:04:40 p. m. Insertando País de Origen asociado al producto.
+29/01/2020 3:04:40 p. m. Insertando Productos.
+29/01/2020 3:04:40 p. m. Validación País.
+29/01/2020 3:04:40 p. m. País encontrado.
+29/01/2020 3:04:40 p. m. Insertando País de Origen asociado al producto.
+29/01/2020 3:04:40 p. m. Recuperando Info de la Solicitud recien creada.
+29/01/2020 3:04:40 p. m. Recuperando Id del tipo de Workflow.
+29/01/2020 3:04:40 p. m. Recuperando Id Estado Workflow.
+29/01/2020 3:04:41 p. m. Insertando Flujo en la Cola.

@@ -1,0 +1,25 @@
+23/01/2020 8:13:47 a. m. Acceso a la Base de datos SICOQ exitoso.
+23/01/2020 8:13:47 a. m. Validación de usuario.
+23/01/2020 8:14:15 a. m. Acceso a la Base de datos SICOQ exitoso.
+23/01/2020 8:14:15 a. m. Validación de usuario.
+23/01/2020 8:24:57 a. m. Acceso a la Base de datos SICOQ exitoso.
+23/01/2020 8:24:58 a. m. Validación de usuario.
+23/01/2020 8:47:54 a. m. Acceso a la Base de datos SICOQ exitoso.
+23/01/2020 8:47:54 a. m. Validación de usuario.
+23/01/2020 8:49:32 a. m. Falló la deserialización de la solicitud.
+23/01/2020 8:51:56 a. m. Acceso a la Base de datos SICOQ exitoso.
+23/01/2020 8:51:56 a. m. Validación de usuario.
+23/01/2020 8:55:30 a. m. Acceso a la Base de datos SICOQ exitoso.
+23/01/2020 8:55:30 a. m. Validación de usuario.
+23/01/2020 9:03:44 a. m. Falló la deserialización de la solicitud.
+23/01/2020 9:04:00 a. m. Acceso a la Base de datos SICOQ exitoso.
+23/01/2020 9:04:00 a. m. Validación de usuario.
+23/01/2020 9:13:42 a. m. Falló la deserialización de la solicitud.
+23/01/2020 10:18:52 a. m. Acceso a la Base de datos SICOQ exitoso.
+23/01/2020 10:18:52 a. m. Validación de usuario.
+23/01/2020 10:25:11 a. m. Falló la deserialización de la solicitud.
+23/01/2020 10:25:25 a. m. Acceso a la Base de datos SICOQ exitoso.
+23/01/2020 10:25:25 a. m. Validación de usuario.
+23/01/2020 10:26:48 a. m. Falló la deserialización de la solicitud.
+23/01/2020 10:30:45 a. m. Acceso a la Base de datos SICOQ exitoso.
+23/01/2020 10:30:45 a. m. Validación de usuario.

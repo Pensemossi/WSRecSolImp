@@ -1,0 +1,59 @@
+13/01/2020 4:09:56 p. m. Acceso a la Base de datos SICOQ exitoso.
+13/01/2020 4:10:20 p. m. No es posible acceder a las tablas USR_FACTORYSUITE.ora_aspnet_users usuarios y USR_FACTORYSUITE.ora_aspnet_membership.
+13/01/2020 4:10:23 p. m. ORA-00904: "USUARIOS"."USERID": identificador no válido
+
+13/01/2020 4:10:32 p. m.    en System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   en System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   en System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   en System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en AccesoDatos.AccesoBaseDatos.Consultar(String strInstruccion) en C:\Pensemos\Source\Repos\WSRecSolImp\AccesoDatos\Class\AccesoBaseDatos.cs:línea 91
+   en WSRecSolImp.WSInicial.RecibirSolLicXML(String SolLicImpoVUCE) en C:\Pensemos\Source\Repos\WSRecSolImp\WSRecSolImp\WSInicial.asmx.cs:línea 73..
+13/01/2020 5:58:06 p. m. Acceso a la Base de datos SICOQ exitoso.
+13/01/2020 5:58:07 p. m. No es posible acceder a las tablas USR_FACTORYSUITE.ora_aspnet_users usuarios y USR_FACTORYSUITE.ora_aspnet_membership.
+13/01/2020 5:58:07 p. m. ORA-00904: "USUARIOS"."USERID": identificador no válido
+
+13/01/2020 5:58:07 p. m.    en System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   en System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   en System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   en System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en AccesoDatos.AccesoBaseDatos.Consultar(String strInstruccion) en C:\Pensemos\Source\Repos\WSRecSolImp\AccesoDatos\Class\AccesoBaseDatos.cs:línea 91
+   en WSRecSolImp.WSInicial.RecibirSolLicXML(String SolLicImpoVUCE) en C:\Pensemos\Source\Repos\WSRecSolImp\WSRecSolImp\WSInicial.asmx.cs:línea 73..
+13/01/2020 5:58:27 p. m. Acceso a la Base de datos SICOQ exitoso.
+13/01/2020 5:58:28 p. m. No es posible acceder a las tablas USR_FACTORYSUITE.ora_aspnet_users usuarios y USR_FACTORYSUITE.ora_aspnet_membership.
+13/01/2020 5:58:28 p. m. ORA-00904: "USUARIOS"."USERID": identificador no válido
+
+13/01/2020 5:58:28 p. m.    en System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   en System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   en System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   en System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en AccesoDatos.AccesoBaseDatos.Consultar(String strInstruccion) en C:\Pensemos\Source\Repos\WSRecSolImp\AccesoDatos\Class\AccesoBaseDatos.cs:línea 91
+   en WSRecSolImp.WSInicial.RecibirSolLicXML(String SolLicImpoVUCE) en C:\Pensemos\Source\Repos\WSRecSolImp\WSRecSolImp\WSInicial.asmx.cs:línea 73..
+13/01/2020 6:01:07 p. m. Acceso a la Base de datos SICOQ exitoso.
+13/01/2020 6:01:07 p. m. Validación de usuario .
+13/01/2020 6:01:10 p. m. Validación de Tipo de Solicitud.
+13/01/2020 6:01:10 p. m. Validación de Clase de Importador.
+13/01/2020 6:01:10 p. m. Validación de Tipo de Cancelación.
+13/01/2020 6:01:14 p. m. Obteniendo Id del país Dummy.
+13/01/2020 6:01:15 p. m. Recuperando Id del Puerto.
+13/01/2020 6:01:19 p. m. Actualizando Solicitudes especiales.
+13/01/2020 6:01:19 p. m. Insertando Subpartidas.
+13/01/2020 6:01:19 p. m. Insertando Productos.
+13/01/2020 6:01:19 p. m. Insertando País de Origen.
+13/01/2020 6:01:19 p. m. Insertando Productos.
+13/01/2020 6:01:19 p. m. Insertando País de Origen.
+13/01/2020 6:01:20 p. m. Insertando Flujo en la Cola.

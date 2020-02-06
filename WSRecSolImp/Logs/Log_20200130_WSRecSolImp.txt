@@ -1,0 +1,185 @@
+30/01/2020 8:06:43 a. m. Acceso a la Base de datos SICOQ exitoso.
+30/01/2020 8:06:43 a. m. Validación de usuario.
+30/01/2020 8:06:51 a. m. Formulario de Solicitud TML-I-0157001-20200110.
+30/01/2020 8:06:51 a. m. Validación de Tipo de Solicitud.
+30/01/2020 8:06:51 a. m. Validación de Clase de Importador.
+30/01/2020 8:06:51 a. m. Validación de Tipo de Cancelación.
+30/01/2020 8:06:51 a. m. Validación de Vía de Transporte.
+30/01/2020 8:06:51 a. m. Validando Licencia.
+30/01/2020 8:06:51 a. m. Validación de Aduana.
+30/01/2020 8:06:51 a. m. Validación País.
+30/01/2020 8:06:51 a. m. País encontrado.
+30/01/2020 8:06:54 a. m. Listo para Insertar nueva Solicitud de Importación.
+30/01/2020 8:08:05 a. m. Listo para Insertar entrada en FSLogErrores.
+30/01/2020 8:08:05 a. m. Insertando en la tabla [FSLogErrores].
+30/01/2020 9:30:21 a. m. Acceso a la Base de datos SICOQ exitoso.
+30/01/2020 9:30:21 a. m. Validación de usuario.
+30/01/2020 9:30:28 a. m. Formulario de Solicitud TML-I-0158001-20200110.
+30/01/2020 9:30:28 a. m. Validación de Tipo de Solicitud.
+30/01/2020 9:30:28 a. m. Validación de Clase de Importador.
+30/01/2020 9:30:28 a. m. Validación de Tipo de Cancelación.
+30/01/2020 9:30:28 a. m. Validación de Vía de Transporte.
+30/01/2020 9:30:28 a. m. Validando Licencia.
+30/01/2020 9:30:28 a. m. Validación de Aduana.
+30/01/2020 9:30:28 a. m. Validación País.
+30/01/2020 9:30:28 a. m. País encontrado.
+30/01/2020 9:30:30 a. m. Listo para Insertar nueva Solicitud de Importación.
+30/01/2020 9:30:38 a. m. Insertando nueva Solicitud de Importación.
+30/01/2020 9:30:38 a. m. Validación de Puerto.
+30/01/2020 9:30:38 a. m. Obteniendo Id del país Dummy.
+30/01/2020 9:30:38 a. m. Recuperando Id del Puerto.
+30/01/2020 9:30:38 a. m. Insertando Puertos de Embarques asociado a la solicitud.
+30/01/2020 9:30:38 a. m. Actualizando Solicitudes especiales de la Solicitud.
+30/01/2020 9:30:38 a. m. Validación de Unidad.
+30/01/2020 9:30:38 a. m. Insertando Subpartidas.
+30/01/2020 9:30:38 a. m. Insertando Productos.
+30/01/2020 9:30:38 a. m. Validación País.
+30/01/2020 9:30:38 a. m. País encontrado.
+30/01/2020 9:30:38 a. m. Insertando País de Origen asociado al producto.
+30/01/2020 9:30:38 a. m. Insertando Productos.
+30/01/2020 9:30:38 a. m. Validación País.
+30/01/2020 9:30:38 a. m. País encontrado.
+30/01/2020 9:30:38 a. m. Insertando País de Origen asociado al producto.
+30/01/2020 9:30:38 a. m. Recuperando Info de la Solicitud recien creada.
+30/01/2020 9:30:38 a. m. Recuperando Id del tipo de Workflow.
+30/01/2020 9:30:38 a. m. Recuperando Id Estado Workflow.
+30/01/2020 9:30:39 a. m. Insertando Flujo en la Cola.
+30/01/2020 10:44:45 a. m. Acceso a la Base de datos SICOQ exitoso.
+30/01/2020 10:44:45 a. m. Validación de usuario.
+30/01/2020 10:45:17 a. m. XML de Solicitud de Importación: 
+30/01/2020 10:45:17 a. m. 
+        <SolicitudLicenciaImportacion>
+				<Reapertura>0</Reapertura>
+				<NumTemporalSol>TML-I-0158001-20200110</NumTemporalSol>
+				<NumLigRegFinal>TML-I-0155073-20190827</NumLigRegFinal>
+				<TipoSolicitud>3</TipoSolicitud>
+				<NitImportador>9001485113</NitImportador>
+				<NomImportador>ESPECIALIDADES QUIMICAS DE COLOMBIA &amp; COMPAÑIA LIMITADA</NomImportador>
+				<ClaseImportador>2</ClaseImportador>
+				<TipoCancelacion>0</TipoCancelacion>
+				<MotivoCancelacion></MotivoCancelacion>
+				<Via>4</Via>
+				<OtraVia></OtraVia>
+				<Aduana>3</Aduana>
+				<PuertoEmbarque>USMIA|</PuertoEmbarque>
+				<OtroPuertoEmbarque></OtroPuertoEmbarque>
+				<PaisCompra>US</PaisCompra>
+				<ValorFOB>1000</ValorFOB>
+		        <SolicitudesEspeciales>
+			        <SolicitudEspecial>
+			            <NomSolEspecial>Otra</NomSolEspecial>
+			            <DesSolEspecial>LAS CANTIDADES QUE SE SUMINISTRAN EN ESTA LICENCIA FUERON HALLADAS CON AYUDA  DEL MINISTERIO DE JUSTICIA EN SU OFICINA PRINCIPAL - Prueba Enter</DesSolEspecial>
+			        </SolicitudEspecial>				
+			        <SolicitudEspecial>
+			            <NomSolEspecial>Otra más</NomSolEspecial>
+			            <DesSolEspecial>LAS CANTIDADES QUE SE SUMINISTRAN EN ESTA LICENCIA FUERON HALLADAS CON AYUDA  DEL MINISTERIO DE JUSTICIA EN SU OFICINA PRINCIPAL</DesSolEspecial>
+			        </SolicitudEspecial>				
+		        </SolicitudesEspeciales>
+		        <Subpartidas>
+					<Subpartida>
+						<ConsecutivoSubp>1</ConsecutivoSubp>
+						<NumSubpartida>3215190000</NumSubpartida>
+						<DesSubpartida>Las demás tintas de imprenta, incluso concentradas o sólidas.</DesSubpartida>
+						<UnidadMedida>BT</UnidadMedida>
+						<ValorSubp>1000</ValorSubp>
+						<Productos>
+							<Producto>
+								<ConsecutivoItem>1</ConsecutivoItem>
+								<DesProducto>PRODUCTO: TINTA ESTENCIL ZANASI BLANCA, ORIGEN: SINTETICO, COMPOSICION:  BUTANONA, ETIL-METIL-CETONA No CAS 78-93-3 50-80%; NITROCELULOSA CONCENTRACION 12.6% DEL NITROGENO No CAS: 9004-70-0 PORCENTAJE 5-10%; N-ETHYL-2-PYRROLIDON No CAS 2687-91-4  PORCENTAJE 3-4%; PROPAN-2-O1, ALCOHOL ISOPROPILICO ISOPORPANOL No CAS 67-63-0 PORCENTAJE 1-3%. ASPECTO FISICO: LIQUIDO CLARO, INCOLORO CON OLOR AGRADABLE, TIPO DE EMPAQUE: ENVASES PLASTICOS DE 5 GALONES. USO: TINTA PARA CODIFICADORES INDUSTRIALES DEL INKJET PINTURA PARA ESTARCIDO; COLOR: BLANCO; EQUIPO DE ESTARCIDO: ESTENCILADORA ZANASI;, MARCA: ZANASI, REFERENCIA: D00192 (DOD192) CONCEPTO TECNICO No OFI17-0018043-SCF-3310. EXT17-0021264, EXT17-0021586.</DesProducto>
+								<CantidadProducto>100.00000000</CantidadProducto>
+								<PrecioUnitario>4</PrecioUnitario>
+								<ValorTotalItem>400</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>
+							</Producto>
+							<Producto>
+								<ConsecutivoItem>2</ConsecutivoItem>
+								<DesProducto>REF. 92-007-660. PRODUCTO: LENS PRE-WIPE SOLUTION, 1 PINT (DANGEROUS),7120007, Nombre técnico o genérico: ESTERES DE PROPILENGLYCOL Y ALCOHOL ISO PROPILICO. Indicar nombre técnico de los componentes principales: ETERES DE PRILENGICOL Y ALCOHOL ISOPROPILICO. Aspecto físico: LIQUIDO. Uso:industrial para laboratorio . Nombre Químico Específico. MEZCLA ALIPATICA DE ETERES DE PRILENGICOL Y ALCOHOL ISOPROPILICO, N&amp;#186; CAS; 67-63-0 / ALCOHOL ISOPROPOILICO,1-PROPOSY-2-PROPANOL 1569-01-3 / 2-PROPOXY-1-PROPANOL. 7732-18-5, AGUA.7732-18-5, Nombre comercial. LENS PRE-WIPE SOLUTION; Calidad y pureza. OSHA, 100%,Concentración; 100% SOLUBLE EN AGUA, Empresa fabricante y país; LENS TECHNOLOGY INTENATIONAL ESTADOS UNIDOS, FRASCOS PLASTICOS , MARCA. SATISLOH LTF, TIPO DE EMPAQUE: FRASCO PLASTICO X 16 OZ //MERCANCIA NUEVA, AÑO DE FABRICACIÓN DE ENERO DEL 2017 A DICIEMBRE DEL 2019 // AUTORIZACIÓN EXTRAORDINARIA  DEL MINISTERIO DE JUSTICIA Y DEL DERECHO No. 108914, VIGENCIA DESDE 2019-04-25 HASTA 2019-07-25 // CONCEPTO TECNICO OFI15-0021790-SCF-3310 //  CANTIDAD TOTAL:9 FRASCOS=3.55 KG // 3 FRASCOS AUTORIZADOS POR CADA MES (LICENCIA DURA 3 MESES VIGENTE)</DesProducto>
+								<CantidadProducto>200.00000000</CantidadProducto>
+								<PrecioUnitario>3</PrecioUnitario>
+								<ValorTotalItem>600</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos>
+									<Permiso>
+										<NombreDocumento>Certificado de Carencia de Informes por Tráfico de Estupefacientes (CCITE)</NombreDocumento>
+										<TipoDocumento>AUTORIZACION EXTRAORDINARIA</TipoDocumento>
+									</Permiso>
+								</Permisos>								
+							</Producto>
+						</Productos>
+					</Subpartida>
+				</Subpartidas>
+        </SolicitudLicenciaImportacion>
+      
+30/01/2020 2:18:55 p. m. Acceso a la Base de datos SICOQ exitoso.
+30/01/2020 2:18:55 p. m. Validación de usuario.
+30/01/2020 2:19:05 p. m. XML de Solicitud de Importación: 
+30/01/2020 2:19:05 p. m. 
+			<SolicitudLicenciaImportacion>
+				<Reapertura>0</Reapertura>
+				<NumTemporalSol>TML-I-0155095-20200107</NumTemporalSol>
+				<NumLigRegFinal></NumLigRegFinal>
+				<TipoSolicitud>1</TipoSolicitud>
+				<NitImportador>8600005800</NitImportador>
+				<NomImportador>MERCK S.A.</NomImportador>
+				<ClaseImportador>2</ClaseImportador>
+				<TipoCancelacion>0</TipoCancelacion>
+				<Via>4</Via>
+				<OtraVia></OtraVia>
+				<Aduana>3</Aduana>
+				<PuertoEmbarque></PuertoEmbarque>
+				<OtroPuertoEmbarque>CUALQUIER PUERTO AEREO</OtroPuertoEmbarque>
+				<PaisCompra>US</PaisCompra>
+				<ValorFOB>54.24</ValorFOB>
+				<SolicitudesEspeciales>
+				</SolicitudesEspeciales>
+				<Subpartidas>
+					<Subpartida>
+						<ConsecutivoSubp>1</ConsecutivoSubp>
+						<NumSubpartida>2901100090</NumSubpartida>
+						<DesSubpartida>Los demás hidrocarburos acíclicos, saturados</DesSubpartida>
+						<UnidadMedida>U</UnidadMedida>
+						<Productos>
+							<Producto>
+								<ConsecutivoItem>1</ConsecutivoItem>
+								<DesProducto> PRODUCTO: TETRADECANE, OLEFINE FREE, 99.0% GC, NOMBRE COMERCIAL: TETRADECANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 629-59-4, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% TETRADECANO, TIPO DE EMPAQUE: ENVASE DE VIDRIO DE 50 ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: 87140-50 ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>18.71000000</PrecioUnitario>
+								<ValorTotalItem>18.71000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>
+							</Producto>
+							<Producto>
+								<ConsecutivoItem>2</ConsecutivoItem>
+								<DesProducto> PRODUCTO: 2,3-DIMETILBUTANO, NOMBRE COMERCIAL: 2,3-DIMETILBUTANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 79-29-8, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% 2,3-DIMETILBUTANO, TIPO DE EMPAQUE: BOTELLA DE VIDRIO X 100ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: D151602-100ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>35.53000000</PrecioUnitario>
+								<ValorTotalItem>35.53000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>	
+							</Producto>
+						</Productos>
+					</Subpartida>
+				</Subpartidas>
+			</SolicitudLicenciaImportacion>
+      
+30/01/2020 2:19:57 p. m. Formulario de Solicitud TML-I-0155095-20200107.
+30/01/2020 2:19:57 p. m. Validación de Tipo de Solicitud.
+30/01/2020 2:20:03 p. m. Validación de Clase de Importador.
+30/01/2020 2:20:07 p. m. Validación de Tipo de Cancelación.
+30/01/2020 2:20:35 p. m. Validación de Vía de Transporte.
+30/01/2020 2:21:38 p. m. Validación de Aduana.
+30/01/2020 2:22:14 p. m. Validación País.
+30/01/2020 2:22:14 p. m. País encontrado.
+30/01/2020 2:23:24 p. m. Listo para Insertar nueva Solicitud de Importación.
+30/01/2020 2:23:36 p. m. Insertando nueva Solicitud de Importación.
+30/01/2020 2:26:14 p. m. Validación de Puerto.
+30/01/2020 2:26:25 p. m. Obteniendo Id del país Dummy.
+30/01/2020 2:29:10 p. m. Actualizando Solicitudes especiales de la Solicitud.
+30/01/2020 2:32:09 p. m. Validación de Unidad.
+30/01/2020 2:39:05 p. m. Listo para Insertar entrada en FSLogErrores.
+30/01/2020 2:39:05 p. m. Insertando en la tabla [FSLogErrores].
+30/01/2020 2:50:47 p. m. Listo para Insertar entrada en FSLogErrores.
+30/01/2020 2:50:47 p. m. Insertando en la tabla [FSLogErrores].
+30/01/2020 2:51:12 p. m. Listo para Insertar entrada en FSLogErrores.
+30/01/2020 2:51:12 p. m. Insertando en la tabla [FSLogErrores].

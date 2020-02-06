@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7ba32898-6447-4c68-b8e8-c933d32e3334" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8987/ServicioFactorySuite.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="99714a96-b4a8-4116-8200-90c4723690a9" SourceId="1" SourceUrl="http://localhost:8987/ServicioFactorySuite.svc/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="e7f75ce3-aa77-4e83-935a-33dd2699a18e" SourceId="1" SourceUrl="http://localhost:8987/ServicioFactorySuite.svc/mex" />
+    <MetadataFile FileName="service21.xsd" MetadataType="Schema" ID="005b407d-a9ac-4b23-bef5-2565b06ab8af" SourceId="1" SourceUrl="http://localhost:8987/ServicioFactorySuite.svc/mex" />
+    <MetadataFile FileName="ServicioFactorySuite1.xsd" MetadataType="Schema" ID="19bd6673-739d-4896-a758-d3d43072997b" SourceId="1" SourceUrl="http://localhost:8987/ServicioFactorySuite.svc/mex" />
+    <MetadataFile FileName="Arrays1.xsd" MetadataType="Schema" ID="dc2f4f82-3a4c-4563-b5a5-5b582736036a" SourceId="1" SourceUrl="http://localhost:8987/ServicioFactorySuite.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

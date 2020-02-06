@@ -1,0 +1,82 @@
+14/01/2020 9:43:50 a. m. Acceso a la Base de datos SICOQ exitoso.
+14/01/2020 9:43:50 a. m. Validación de usuario.
+14/01/2020 9:43:59 a. m. Validación de Tipo de Solicitud.
+14/01/2020 9:43:59 a. m. Validación de Clase de Importador.
+14/01/2020 9:43:59 a. m. Validación de Tipo de Cancelación.
+14/01/2020 9:43:59 a. m. Validación de Vía de Transporte.
+14/01/2020 9:44:03 a. m. Validación de Aduana.
+14/01/2020 9:44:03 a. m. Validación País.
+14/01/2020 9:44:05 a. m. Insertando nueva Solicitud de Importación.
+14/01/2020 9:44:05 a. m. Validación de Puerto.
+14/01/2020 9:44:05 a. m. Obteniendo Id del país Dummy.
+14/01/2020 9:44:05 a. m. Recuperando Id de Puerto.
+14/01/2020 9:44:05 a. m. Recuperando Id del Puerto.
+14/01/2020 9:44:09 a. m. Insertando Puertos de Embarques asociado a la solicitud.
+14/01/2020 9:44:09 a. m. Actualizando Solicitudes especiales de la Solicitud.
+14/01/2020 9:44:09 a. m. Validación de Unidad.
+14/01/2020 9:44:09 a. m. Insertando Subpartidas.
+14/01/2020 9:44:09 a. m. Insertando Productos.
+14/01/2020 9:44:10 a. m. Validación País.
+14/01/2020 9:44:10 a. m. Insertando País de Origen asociado al producto.
+14/01/2020 9:44:10 a. m. Insertando Productos.
+14/01/2020 9:44:10 a. m. Validación País.
+14/01/2020 9:44:10 a. m. Insertando País de Origen asociado al producto.
+14/01/2020 9:44:10 a. m. Recuperando Info de la Solicitud recien creada.
+14/01/2020 9:44:10 a. m. Recuperando Id del tipo de Workflow.
+14/01/2020 9:44:10 a. m. Recuperando Id Estado Workflow.
+14/01/2020 9:44:10 a. m. Insertando Flujo en la Cola.
+14/01/2020 9:52:35 a. m. Acceso a la Base de datos SICOQ exitoso.
+14/01/2020 9:52:35 a. m. Validación de usuario.
+14/01/2020 9:52:38 a. m. Validación de Tipo de Solicitud.
+14/01/2020 9:52:38 a. m. Validación de Clase de Importador.
+14/01/2020 9:52:38 a. m. Validación de Tipo de Cancelación.
+14/01/2020 9:52:38 a. m. Validación de Vía de Transporte.
+14/01/2020 9:52:39 a. m. Validación de Aduana.
+14/01/2020 9:52:39 a. m. Validación País.
+14/01/2020 9:52:40 a. m. Insertando nueva Solicitud de Importación.
+14/01/2020 9:52:40 a. m. Validación de Puerto.
+14/01/2020 9:52:40 a. m. Obteniendo Id del país Dummy.
+14/01/2020 9:52:40 a. m. Recuperando Id del Puerto.
+14/01/2020 9:52:41 a. m. Insertando Puertos de Embarques asociado a la solicitud.
+14/01/2020 9:52:41 a. m. Actualizando Solicitudes especiales de la Solicitud.
+14/01/2020 9:52:41 a. m. Validación de Unidad.
+14/01/2020 9:52:41 a. m. Insertando Subpartidas.
+14/01/2020 9:52:41 a. m. Insertando Productos.
+14/01/2020 9:52:41 a. m. Validación País.
+14/01/2020 9:52:41 a. m. Insertando País de Origen asociado al producto.
+14/01/2020 9:52:41 a. m. Insertando Productos.
+14/01/2020 9:52:41 a. m. Validación País.
+14/01/2020 9:52:41 a. m. Insertando País de Origen asociado al producto.
+14/01/2020 9:52:41 a. m. Recuperando Info de la Solicitud recien creada.
+14/01/2020 9:52:41 a. m. Recuperando Id del tipo de Workflow.
+14/01/2020 9:52:41 a. m. Recuperando Id Estado Workflow.
+14/01/2020 9:52:41 a. m. Insertando Flujo en la Cola.
+
+14/01/2020 9:57:59 a. m. Acceso a la Base de datos SICOQ exitoso.
+14/01/2020 9:57:59 a. m. Validación de usuario.
+14/01/2020 9:58:01 a. m. Formulario de Solicitud TML-I-0155072-20190827.
+14/01/2020 9:58:01 a. m. Validación de Tipo de Solicitud.
+14/01/2020 9:58:01 a. m. Validación de Clase de Importador.
+14/01/2020 9:58:01 a. m. Validación de Tipo de Cancelación.
+14/01/2020 9:58:01 a. m. Validación de Vía de Transporte.
+14/01/2020 9:58:02 a. m. Validación de Aduana.
+14/01/2020 9:58:02 a. m. Validación País.
+
+14/01/2020 9:58:03 a. m. Insertando nueva Solicitud de Importación.
+14/01/2020 9:58:03 a. m. Validación de Puerto.
+14/01/2020 9:58:03 a. m. Obteniendo Id del país Dummy.
+14/01/2020 9:58:03 a. m. Recuperando Id del Puerto.
+14/01/2020 9:58:04 a. m. Insertando Puertos de Embarques asociado a la solicitud.
+14/01/2020 9:58:04 a. m. Actualizando Solicitudes especiales de la Solicitud.
+14/01/2020 9:58:04 a. m. Validación de Unidad.
+14/01/2020 9:58:04 a. m. Insertando Subpartidas.
+14/01/2020 9:58:04 a. m. Insertando Productos.
+14/01/2020 9:58:04 a. m. Validación País.
+14/01/2020 9:58:04 a. m. Insertando País de Origen asociado al producto.
+14/01/2020 9:58:05 a. m. Insertando Productos.
+14/01/2020 9:58:05 a. m. Validación País.
+14/01/2020 9:58:05 a. m. Insertando País de Origen asociado al producto.
+14/01/2020 9:58:05 a. m. Recuperando Info de la Solicitud recien creada.
+14/01/2020 9:58:05 a. m. Recuperando Id del tipo de Workflow.
+14/01/2020 9:58:05 a. m. Recuperando Id Estado Workflow.
+14/01/2020 9:58:05 a. m. Insertando Flujo en la Cola.

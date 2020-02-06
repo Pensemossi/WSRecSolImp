@@ -1,0 +1,533 @@
+31/01/2020 8:13:27 a. m. Acceso a la Base de datos SICOQ exitoso.
+31/01/2020 8:13:27 a. m. Validación de usuario.
+31/01/2020 8:13:34 a. m. XML de Solicitud de Importación: 
+31/01/2020 8:13:34 a. m. 
+			<SolicitudLicenciaImportacion>
+				<Reapertura>0</Reapertura>
+				<NumTemporalSol>TML-I-0155095-20200108</NumTemporalSol>
+				<NumLigRegFinal></NumLigRegFinal>
+				<TipoSolicitud>1</TipoSolicitud>
+				<NitImportador>8600005800</NitImportador>
+				<NomImportador>MERCK S.A.</NomImportador>
+				<ClaseImportador>2</ClaseImportador>
+				<TipoCancelacion>0</TipoCancelacion>
+				<Via>4</Via>
+				<OtraVia></OtraVia>
+				<Aduana>3</Aduana>
+				<PuertoEmbarque></PuertoEmbarque>
+				<OtroPuertoEmbarque>CUALQUIER PUERTO AEREO</OtroPuertoEmbarque>
+				<PaisCompra>US</PaisCompra>
+				<ValorFOB>54.24</ValorFOB>
+				<SolicitudesEspeciales>
+				</SolicitudesEspeciales>
+				<Subpartidas>
+					<Subpartida>
+						<ConsecutivoSubp>1</ConsecutivoSubp>
+						<NumSubpartida>2901100090</NumSubpartida>
+						<DesSubpartida>Los demás hidrocarburos acíclicos, saturados</DesSubpartida>
+						<UnidadMedida>U</UnidadMedida>
+						<Productos>
+							<Producto>
+								<ConsecutivoItem>1</ConsecutivoItem>
+								<DesProducto> PRODUCTO: TETRADECANE, OLEFINE FREE, 99.0% GC, NOMBRE COMERCIAL: TETRADECANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 629-59-4, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% TETRADECANO, TIPO DE EMPAQUE: ENVASE DE VIDRIO DE 50 ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: 87140-50 ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>18.71000000</PrecioUnitario>
+								<ValorTotalItem>18.71000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>
+							</Producto>
+							<Producto>
+								<ConsecutivoItem>2</ConsecutivoItem>
+								<DesProducto> PRODUCTO: 2,3-DIMETILBUTANO, NOMBRE COMERCIAL: 2,3-DIMETILBUTANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 79-29-8, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% 2,3-DIMETILBUTANO, TIPO DE EMPAQUE: BOTELLA DE VIDRIO X 100ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: D151602-100ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>35.53000000</PrecioUnitario>
+								<ValorTotalItem>35.53000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>	
+							</Producto>
+						</Productos>
+					</Subpartida>
+				</Subpartidas>
+			</SolicitudLicenciaImportacion>
+      
+31/01/2020 8:13:39 a. m. Formulario de Solicitud TML-I-0155095-20200108.
+31/01/2020 8:13:39 a. m. Validación de Tipo de Solicitud.
+31/01/2020 8:13:39 a. m. Validación de Clase de Importador.
+31/01/2020 8:13:39 a. m. Validación de Tipo de Cancelación.
+31/01/2020 8:13:39 a. m. Validación de Vía de Transporte.
+31/01/2020 8:13:39 a. m. Validación de Aduana.
+31/01/2020 8:13:39 a. m. Validación País.
+31/01/2020 8:13:39 a. m. País encontrado.
+31/01/2020 8:13:57 a. m. Listo para Insertar nueva Solicitud de Importación.
+31/01/2020 8:14:22 a. m. Insertando nueva Solicitud de Importación.
+31/01/2020 8:14:37 a. m. Validación de Puerto.
+31/01/2020 8:14:37 a. m. Obteniendo Id del país Dummy.
+31/01/2020 8:14:40 a. m. Actualizando Solicitudes especiales de la Solicitud.
+31/01/2020 8:15:06 a. m. Validación de Unidad.
+31/01/2020 8:15:37 a. m. Listo para Insertar entrada en FSLogErrores.
+31/01/2020 8:15:38 a. m. Insertando en la tabla [FSLogErrores].
+31/01/2020 8:15:51 a. m. Recuperando Info de la Solicitud recien creada.
+31/01/2020 8:15:51 a. m. Recuperando Id del tipo de Workflow.
+31/01/2020 8:15:51 a. m. Recuperando Id Estado Workflow.
+31/01/2020 8:15:51 a. m. Insertando Flujo en la Cola.
+31/01/2020 8:43:43 a. m. Acceso a la Base de datos SICOQ exitoso.
+31/01/2020 8:43:43 a. m. Validación de usuario.
+31/01/2020 8:43:48 a. m. XML de Solicitud de Importación: 
+31/01/2020 8:43:48 a. m. 
+			<SolicitudLicenciaImportacion>
+				<Reapertura>0</Reapertura>
+				<NumTemporalSol>TML-I-0155095-20200109</NumTemporalSol>
+				<NumLigRegFinal></NumLigRegFinal>
+				<TipoSolicitud>1</TipoSolicitud>
+				<NitImportador>8600005800</NitImportador>
+				<NomImportador>MERCK S.A.</NomImportador>
+				<ClaseImportador>2</ClaseImportador>
+				<TipoCancelacion>0</TipoCancelacion>
+				<Via>4</Via>
+				<OtraVia></OtraVia>
+				<Aduana>3</Aduana>
+				<PuertoEmbarque></PuertoEmbarque>
+				<OtroPuertoEmbarque>CUALQUIER PUERTO AEREO</OtroPuertoEmbarque>
+				<PaisCompra>US</PaisCompra>
+				<ValorFOB>54.24</ValorFOB>
+				<SolicitudesEspeciales>
+				</SolicitudesEspeciales>
+				<Subpartidas>
+					<Subpartida>
+						<ConsecutivoSubp>1</ConsecutivoSubp>
+						<NumSubpartida>2901100090</NumSubpartida>
+						<DesSubpartida>Los demás hidrocarburos acíclicos, saturados</DesSubpartida>
+						<UnidadMedida>U</UnidadMedida>
+						<Productos>
+							<Producto>
+								<ConsecutivoItem>1</ConsecutivoItem>
+								<DesProducto> PRODUCTO: TETRADECANE, OLEFINE FREE, 99.0% GC, NOMBRE COMERCIAL: TETRADECANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 629-59-4, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% TETRADECANO, TIPO DE EMPAQUE: ENVASE DE VIDRIO DE 50 ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: 87140-50 ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>18.71000000</PrecioUnitario>
+								<ValorTotalItem>18.71000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>
+							</Producto>
+							<Producto>
+								<ConsecutivoItem>2</ConsecutivoItem>
+								<DesProducto> PRODUCTO: 2,3-DIMETILBUTANO, NOMBRE COMERCIAL: 2,3-DIMETILBUTANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 79-29-8, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% 2,3-DIMETILBUTANO, TIPO DE EMPAQUE: BOTELLA DE VIDRIO X 100ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: D151602-100ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>35.53000000</PrecioUnitario>
+								<ValorTotalItem>35.53000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>	
+							</Producto>
+						</Productos>
+					</Subpartida>
+				</Subpartidas>
+			</SolicitudLicenciaImportacion>
+      
+31/01/2020 8:43:50 a. m. Formulario de Solicitud TML-I-0155095-20200109.
+31/01/2020 8:43:50 a. m. Validación de Tipo de Solicitud.
+31/01/2020 8:43:50 a. m. Validación de Clase de Importador.
+31/01/2020 8:43:50 a. m. Validación de Tipo de Cancelación.
+31/01/2020 8:43:50 a. m. Validación de Vía de Transporte.
+31/01/2020 8:43:50 a. m. Validación de Aduana.
+31/01/2020 8:43:50 a. m. Validación País.
+31/01/2020 8:43:50 a. m. País encontrado.
+31/01/2020 8:43:52 a. m. Listo para Insertar nueva Solicitud de Importación.
+31/01/2020 8:43:55 a. m. Insertando nueva Solicitud de Importación.
+31/01/2020 8:43:55 a. m. Validación de Puerto.
+31/01/2020 8:43:55 a. m. Obteniendo Id del país Dummy.
+31/01/2020 8:43:55 a. m. Actualizando Solicitudes especiales de la Solicitud.
+31/01/2020 8:43:55 a. m. Validación de Unidad.
+31/01/2020 8:43:55 a. m. Falló al insertar la Subpartida.
+31/01/2020 8:43:55 a. m. Listo para Insertar entrada en FSLogErrores.
+31/01/2020 8:43:55 a. m. Insertando en la tabla [FSLogErrores].
+31/01/2020 8:43:55 a. m. Recuperando Info de la Solicitud recien creada.
+31/01/2020 8:43:55 a. m. Recuperando Id del tipo de Workflow.
+31/01/2020 8:43:55 a. m. Recuperando Id Estado Workflow.
+31/01/2020 8:43:55 a. m. Insertando Flujo en la Cola.
+31/01/2020 8:47:23 a. m. Acceso a la Base de datos SICOQ exitoso.
+31/01/2020 8:47:24 a. m. Validación de usuario.
+31/01/2020 8:47:31 a. m. XML de Solicitud de Importación: 
+31/01/2020 8:47:31 a. m. 
+			<SolicitudLicenciaImportacion>
+				<Reapertura>0</Reapertura>
+				<NumTemporalSol>TML-I-0155095-20200110</NumTemporalSol>
+				<NumLigRegFinal></NumLigRegFinal>
+				<TipoSolicitud>1</TipoSolicitud>
+				<NitImportador>8600005800</NitImportador>
+				<NomImportador>MERCK S.A.</NomImportador>
+				<ClaseImportador>2</ClaseImportador>
+				<TipoCancelacion>0</TipoCancelacion>
+				<Via>4</Via>
+				<OtraVia></OtraVia>
+				<Aduana>3</Aduana>
+				<PuertoEmbarque></PuertoEmbarque>
+				<OtroPuertoEmbarque>CUALQUIER PUERTO AEREO</OtroPuertoEmbarque>
+				<PaisCompra>US</PaisCompra>
+				<ValorFOB>54.24</ValorFOB>
+				<SolicitudesEspeciales>
+				</SolicitudesEspeciales>
+				<Subpartidas>
+					<Subpartida>
+						<ConsecutivoSubp>1</ConsecutivoSubp>
+						<NumSubpartida>2901100090</NumSubpartida>
+						<DesSubpartida>Los demás hidrocarburos acíclicos, saturados</DesSubpartida>
+						<UnidadMedida>U</UnidadMedida>
+						<Productos>
+							<Producto>
+								<ConsecutivoItem>1</ConsecutivoItem>
+								<DesProducto> PRODUCTO: TETRADECANE, OLEFINE FREE, 99.0% GC, NOMBRE COMERCIAL: TETRADECANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 629-59-4, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% TETRADECANO, TIPO DE EMPAQUE: ENVASE DE VIDRIO DE 50 ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: 87140-50 ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>18.71000000</PrecioUnitario>
+								<ValorTotalItem>18.71000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>
+							</Producto>
+							<Producto>
+								<ConsecutivoItem>2</ConsecutivoItem>
+								<DesProducto> PRODUCTO: 2,3-DIMETILBUTANO, NOMBRE COMERCIAL: 2,3-DIMETILBUTANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 79-29-8, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% 2,3-DIMETILBUTANO, TIPO DE EMPAQUE: BOTELLA DE VIDRIO X 100ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: D151602-100ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>35.53000000</PrecioUnitario>
+								<ValorTotalItem>35.53000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>	
+							</Producto>
+						</Productos>
+					</Subpartida>
+				</Subpartidas>
+			</SolicitudLicenciaImportacion>
+      
+31/01/2020 8:47:34 a. m. Formulario de Solicitud TML-I-0155095-20200110.
+31/01/2020 8:47:34 a. m. Validación de Tipo de Solicitud.
+31/01/2020 8:47:34 a. m. Validación de Clase de Importador.
+31/01/2020 8:47:34 a. m. Validación de Tipo de Cancelación.
+31/01/2020 8:47:34 a. m. Validación de Vía de Transporte.
+31/01/2020 8:47:34 a. m. Validación de Aduana.
+31/01/2020 8:47:34 a. m. Validación País.
+31/01/2020 8:47:34 a. m. País encontrado.
+31/01/2020 8:47:35 a. m. Listo para Insertar nueva Solicitud de Importación.
+31/01/2020 8:47:37 a. m. Insertando nueva Solicitud de Importación.
+31/01/2020 8:47:37 a. m. Validación de Puerto.
+31/01/2020 8:47:37 a. m. Obteniendo Id del país Dummy.
+31/01/2020 8:47:37 a. m. Actualizando Solicitudes especiales de la Solicitud.
+31/01/2020 8:47:37 a. m. Validación de Unidad.
+31/01/2020 8:47:37 a. m. Falló al insertar la Subpartida.
+31/01/2020 8:47:37 a. m. Listo para Insertar entrada en FSLogErrores.
+31/01/2020 8:47:37 a. m. Insertando en la tabla [FSLogErrores].
+31/01/2020 8:47:37 a. m. Recuperando Info de la Solicitud recien creada.
+31/01/2020 8:47:37 a. m. Recuperando Id del tipo de Workflow.
+31/01/2020 8:47:37 a. m. Recuperando Id Estado Workflow.
+31/01/2020 8:47:38 a. m. Insertando Flujo en la Cola.
+31/01/2020 8:52:29 a. m. Acceso a la Base de datos SICOQ exitoso.
+31/01/2020 8:52:29 a. m. Validación de usuario.
+31/01/2020 8:52:31 a. m. XML de Solicitud de Importación: 
+31/01/2020 8:52:31 a. m. 
+			<SolicitudLicenciaImportacion>
+				<Reapertura>0</Reapertura>
+				<NumTemporalSol>TML-I-0155095-20200111</NumTemporalSol>
+				<NumLigRegFinal></NumLigRegFinal>
+				<TipoSolicitud>1</TipoSolicitud>
+				<NitImportador>8600005800</NitImportador>
+				<NomImportador>MERCK S.A.</NomImportador>
+				<ClaseImportador>2</ClaseImportador>
+				<TipoCancelacion>0</TipoCancelacion>
+				<Via>4</Via>
+				<OtraVia></OtraVia>
+				<Aduana>3</Aduana>
+				<PuertoEmbarque></PuertoEmbarque>
+				<OtroPuertoEmbarque>CUALQUIER PUERTO AEREO</OtroPuertoEmbarque>
+				<PaisCompra>US</PaisCompra>
+				<ValorFOB>54.24</ValorFOB>
+				<SolicitudesEspeciales>
+				</SolicitudesEspeciales>
+				<Subpartidas>
+					<Subpartida>
+						<ConsecutivoSubp>1</ConsecutivoSubp>
+						<NumSubpartida>2901100090</NumSubpartida>
+						<DesSubpartida>Los demás hidrocarburos acíclicos, saturados</DesSubpartida>
+						<UnidadMedida>U</UnidadMedida>
+						<Productos>
+							<Producto>
+								<ConsecutivoItem>1</ConsecutivoItem>
+								<DesProducto> PRODUCTO: TETRADECANE, OLEFINE FREE, 99.0% GC, NOMBRE COMERCIAL: TETRADECANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 629-59-4, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% TETRADECANO, TIPO DE EMPAQUE: ENVASE DE VIDRIO DE 50 ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: 87140-50 ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>18.71000000</PrecioUnitario>
+								<ValorTotalItem>18.71000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>
+							</Producto>
+							<Producto>
+								<ConsecutivoItem>2</ConsecutivoItem>
+								<DesProducto> PRODUCTO: 2,3-DIMETILBUTANO, NOMBRE COMERCIAL: 2,3-DIMETILBUTANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 79-29-8, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% 2,3-DIMETILBUTANO, TIPO DE EMPAQUE: BOTELLA DE VIDRIO X 100ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: D151602-100ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>35.53000000</PrecioUnitario>
+								<ValorTotalItem>35.53000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>	
+							</Producto>
+						</Productos>
+					</Subpartida>
+				</Subpartidas>
+			</SolicitudLicenciaImportacion>
+      
+31/01/2020 8:52:33 a. m. Formulario de Solicitud TML-I-0155095-20200111.
+31/01/2020 8:52:33 a. m. Validación de Tipo de Solicitud.
+31/01/2020 8:52:33 a. m. Validación de Clase de Importador.
+31/01/2020 8:52:33 a. m. Validación de Tipo de Cancelación.
+31/01/2020 8:52:33 a. m. Validación de Vía de Transporte.
+31/01/2020 8:52:33 a. m. Validación de Aduana.
+31/01/2020 8:52:33 a. m. Validación País.
+31/01/2020 8:52:33 a. m. País encontrado.
+31/01/2020 8:52:34 a. m. Listo para Insertar nueva Solicitud de Importación.
+31/01/2020 8:52:36 a. m. Insertando nueva Solicitud de Importación.
+31/01/2020 8:52:36 a. m. Validación de Puerto.
+31/01/2020 8:52:37 a. m. Obteniendo Id del país Dummy.
+31/01/2020 8:52:37 a. m. Actualizando Solicitudes especiales de la Solicitud.
+31/01/2020 8:52:37 a. m. Validación de Unidad.
+31/01/2020 9:01:57 a. m. Acceso a la Base de datos SICOQ exitoso.
+31/01/2020 9:01:57 a. m. Validación de usuario.
+31/01/2020 9:02:00 a. m. XML de Solicitud de Importación: 
+31/01/2020 9:02:00 a. m. 
+			<SolicitudLicenciaImportacion>
+				<Reapertura>0</Reapertura>
+				<NumTemporalSol>TML-I-0155095-20200112</NumTemporalSol>
+				<NumLigRegFinal></NumLigRegFinal>
+				<TipoSolicitud>1</TipoSolicitud>
+				<NitImportador>8600005800</NitImportador>
+				<NomImportador>MERCK S.A.</NomImportador>
+				<ClaseImportador>2</ClaseImportador>
+				<TipoCancelacion>0</TipoCancelacion>
+				<Via>4</Via>
+				<OtraVia></OtraVia>
+				<Aduana>3</Aduana>
+				<PuertoEmbarque></PuertoEmbarque>
+				<OtroPuertoEmbarque>CUALQUIER PUERTO AEREO</OtroPuertoEmbarque>
+				<PaisCompra>US</PaisCompra>
+				<ValorFOB>54.24</ValorFOB>
+				<SolicitudesEspeciales>
+				</SolicitudesEspeciales>
+				<Subpartidas>
+					<Subpartida>
+						<ConsecutivoSubp>1</ConsecutivoSubp>
+						<NumSubpartida>2901100090</NumSubpartida>
+						<DesSubpartida>Los demás hidrocarburos acíclicos, saturados</DesSubpartida>
+						<UnidadMedida>U</UnidadMedida>
+						<Productos>
+							<Producto>
+								<ConsecutivoItem>1</ConsecutivoItem>
+								<DesProducto> PRODUCTO: TETRADECANE, OLEFINE FREE, 99.0% GC, NOMBRE COMERCIAL: TETRADECANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 629-59-4, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% TETRADECANO, TIPO DE EMPAQUE: ENVASE DE VIDRIO DE 50 ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: 87140-50 ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>18.71000000</PrecioUnitario>
+								<ValorTotalItem>18.71000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>
+							</Producto>
+							<Producto>
+								<ConsecutivoItem>2</ConsecutivoItem>
+								<DesProducto> PRODUCTO: 2,3-DIMETILBUTANO, NOMBRE COMERCIAL: 2,3-DIMETILBUTANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 79-29-8, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% 2,3-DIMETILBUTANO, TIPO DE EMPAQUE: BOTELLA DE VIDRIO X 100ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: D151602-100ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>35.53000000</PrecioUnitario>
+								<ValorTotalItem>35.53000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>	
+							</Producto>
+						</Productos>
+					</Subpartida>
+				</Subpartidas>
+			</SolicitudLicenciaImportacion>
+      
+31/01/2020 9:02:03 a. m. Formulario de Solicitud TML-I-0155095-20200112.
+31/01/2020 9:02:03 a. m. Validación de Tipo de Solicitud.
+31/01/2020 9:02:03 a. m. Validación de Clase de Importador.
+31/01/2020 9:02:03 a. m. Validación de Tipo de Cancelación.
+31/01/2020 9:02:03 a. m. Validación de Vía de Transporte.
+31/01/2020 9:02:03 a. m. Validación de Aduana.
+31/01/2020 9:02:03 a. m. Validación País.
+31/01/2020 9:02:03 a. m. País encontrado.
+31/01/2020 9:02:06 a. m. Listo para Insertar nueva Solicitud de Importación.
+31/01/2020 9:02:08 a. m. Insertando nueva Solicitud de Importación.
+31/01/2020 9:02:08 a. m. Validación de Puerto.
+31/01/2020 9:02:08 a. m. Obteniendo Id del país Dummy.
+31/01/2020 9:02:09 a. m. Actualizando Solicitudes especiales de la Solicitud.
+31/01/2020 9:02:09 a. m. Validación de Unidad.
+31/01/2020 9:03:19 a. m. Insertando Subpartidas.
+31/01/2020 9:03:19 a. m. Falló al insertar Producto (item de  Subpartida).
+31/01/2020 9:03:19 a. m. Listo para Insertar entrada en FSLogErrores.
+31/01/2020 9:03:19 a. m. Insertando en la tabla [FSLogErrores].
+31/01/2020 9:03:19 a. m. Falló al insertar Producto (item de  Subpartida).
+31/01/2020 9:03:19 a. m. Listo para Insertar entrada en FSLogErrores.
+31/01/2020 9:03:19 a. m. Insertando en la tabla [FSLogErrores].
+31/01/2020 9:03:19 a. m. Recuperando Info de la Solicitud recien creada.
+31/01/2020 9:03:19 a. m. Recuperando Id del tipo de Workflow.
+31/01/2020 9:03:19 a. m. Recuperando Id Estado Workflow.
+31/01/2020 9:03:20 a. m. Insertando Flujo en la Cola.
+31/01/2020 10:15:46 a. m. Acceso a la Base de datos SICOQ exitoso.
+31/01/2020 10:15:46 a. m. Validación de usuario.
+31/01/2020 10:15:51 a. m. XML de Solicitud de Importación: 
+31/01/2020 10:15:51 a. m. 
+			<SolicitudLicenciaImportacion>
+				<Reapertura>0</Reapertura>
+				<NumTemporalSol>TML-I-0155095-20200113</NumTemporalSol>
+				<NumLigRegFinal></NumLigRegFinal>
+				<TipoSolicitud>1</TipoSolicitud>
+				<NitImportador>8600005800</NitImportador>
+				<NomImportador>MERCK S.A.</NomImportador>
+				<ClaseImportador>2</ClaseImportador>
+				<TipoCancelacion>0</TipoCancelacion>
+				<Via>4</Via>
+				<OtraVia></OtraVia>
+				<Aduana>3</Aduana>
+				<PuertoEmbarque></PuertoEmbarque>
+				<OtroPuertoEmbarque>CUALQUIER PUERTO AEREO</OtroPuertoEmbarque>
+				<PaisCompra>US</PaisCompra>
+				<ValorFOB>54.24</ValorFOB>
+				<SolicitudesEspeciales>
+				</SolicitudesEspeciales>
+				<Subpartidas>
+					<Subpartida>
+						<ConsecutivoSubp>1</ConsecutivoSubp>
+						<NumSubpartida>2901100090</NumSubpartida>
+						<DesSubpartida>Los demás hidrocarburos acíclicos, saturados</DesSubpartida>
+						<UnidadMedida>U</UnidadMedida>
+						<Productos>
+							<Producto>
+								<ConsecutivoItem>1</ConsecutivoItem>
+								<DesProducto> PRODUCTO: TETRADECANE, OLEFINE FREE, 99.0% GC, NOMBRE COMERCIAL: TETRADECANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 629-59-4, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% TETRADECANO, TIPO DE EMPAQUE: ENVASE DE VIDRIO DE 50 ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: 87140-50 ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>18.71000000</PrecioUnitario>
+								<ValorTotalItem>18.71000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>
+							</Producto>
+							<Producto>
+								<ConsecutivoItem>2</ConsecutivoItem>
+								<DesProducto> PRODUCTO: 2,3-DIMETILBUTANO, NOMBRE COMERCIAL: 2,3-DIMETILBUTANO, NO. CAS (NUMERO DE REGISTRO DEL CHEMICAL ABSTRACTS SERVICE): 79-29-8, CALIDAD: REACTIVO ANALITICO, ASPECTO FISICO: LIQUIDO, CONCENTRACION: 100% 2,3-DIMETILBUTANO, TIPO DE EMPAQUE: BOTELLA DE VIDRIO X 100ML, USO: REACTIVO ANALITICO PARA CONTROL DE CALIDAD EN LA INDUSTRIA QUIMICA, MARCA: SIGMA-ALDRICH 'CODIGO DE PRODUCTO: D151602-100ML; EMPRESA FABRICANTE Y PAIS:  SIGMA-ALDRICH / ESTADOS UNIDOS.</DesProducto>
+								<CantidadProducto>1.00000000</CantidadProducto>
+								<PrecioUnitario>35.53000000</PrecioUnitario>
+								<ValorTotalItem>35.53000000</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>	
+							</Producto>
+						</Productos>
+					</Subpartida>
+				</Subpartidas>
+			</SolicitudLicenciaImportacion>
+      
+31/01/2020 10:15:54 a. m. Formulario de Solicitud TML-I-0155095-20200113.
+31/01/2020 10:15:54 a. m. Validación de Tipo de Solicitud.
+31/01/2020 10:15:54 a. m. Validación de Clase de Importador.
+31/01/2020 10:15:54 a. m. Validación de Tipo de Cancelación.
+31/01/2020 10:15:54 a. m. Validación de Vía de Transporte.
+31/01/2020 10:15:54 a. m. Validación de Aduana.
+31/01/2020 10:15:54 a. m. Validación País.
+31/01/2020 10:15:54 a. m. País encontrado.
+31/01/2020 10:15:54 a. m. Listo para Insertar nueva Solicitud de Importación.
+31/01/2020 10:15:56 a. m. Insertando nueva Solicitud de Importación.
+31/01/2020 10:15:56 a. m. Validación de Puerto.
+31/01/2020 10:15:56 a. m. Obteniendo Id del país Dummy.
+31/01/2020 10:15:56 a. m. Actualizando Solicitudes especiales de la Solicitud.
+31/01/2020 10:15:56 a. m. Validación de Unidad.
+31/01/2020 10:16:08 a. m. Insertando Subpartidas.
+31/01/2020 10:17:27 a. m. Insertando Productos.
+31/01/2020 10:17:28 a. m. Validación País.
+31/01/2020 10:17:28 a. m. País encontrado.
+31/01/2020 10:17:28 a. m. Insertando País de Origen asociado al producto.
+31/01/2020 10:17:30 a. m. Insertando Productos.
+31/01/2020 10:17:30 a. m. Validación País.
+31/01/2020 10:17:30 a. m. País encontrado.
+31/01/2020 10:17:30 a. m. Insertando País de Origen asociado al producto.
+31/01/2020 10:17:30 a. m. Recuperando Info de la Solicitud recien creada.
+31/01/2020 10:17:30 a. m. Recuperando Id del tipo de Workflow.
+31/01/2020 10:17:30 a. m. Recuperando Id Estado Workflow.
+31/01/2020 10:17:30 a. m. Insertando Flujo en la Cola.
+31/01/2020 5:07:07 p. m. Acceso a la Base de datos SICOQ exitoso.
+31/01/2020 5:07:07 p. m. Validación de usuario exitosa.
+31/01/2020 5:07:07 p. m. XML de Solicitud de Importación: 
+31/01/2020 5:07:07 p. m. 
+        <SolicitudLicenciaImportacion>
+				<Reapertura>0</Reapertura>
+				<NumTemporalSol>TML-I-0158002-20200110</NumTemporalSol>
+				<NumLigRegFinal></NumLigRegFinal>
+				<TipoSolicitud>1</TipoSolicitud>
+				<NitImportador>9001485113</NitImportador>
+				<NomImportador>ESPECIALIDADES QUIMICAS DE COLOMBIA &amp; COMPAÑIA LIMITADA</NomImportador>
+				<ClaseImportador>2</ClaseImportador>
+				<TipoCancelacion>0</TipoCancelacion>
+				<MotivoCancelacion></MotivoCancelacion>
+				<Via>4</Via>
+				<OtraVia></OtraVia>
+				<Aduana>3</Aduana>
+				<PuertoEmbarque>USMIA|</PuertoEmbarque>
+				<OtroPuertoEmbarque></OtroPuertoEmbarque>
+				<PaisCompra>US</PaisCompra>
+				<ValorFOB>1000</ValorFOB>
+		        <SolicitudesEspeciales>
+			        <SolicitudEspecial>
+			            <NomSolEspecial>Otra</NomSolEspecial>
+			            <DesSolEspecial>LAS CANTIDADES QUE SE SUMINISTRAN EN ESTA LICENCIA FUERON HALLADAS CON AYUDA  DEL MINISTERIO DE JUSTICIA EN SU OFICINA PRINCIPAL - Prueba Enter</DesSolEspecial>
+			        </SolicitudEspecial>				
+			        <SolicitudEspecial>
+			            <NomSolEspecial>Otra más</NomSolEspecial>
+			            <DesSolEspecial>LAS CANTIDADES QUE SE SUMINISTRAN EN ESTA LICENCIA FUERON HALLADAS CON AYUDA  DEL MINISTERIO DE JUSTICIA EN SU OFICINA PRINCIPAL</DesSolEspecial>
+			        </SolicitudEspecial>				
+		        </SolicitudesEspeciales>
+		        <Subpartidas>
+					<Subpartida>
+						<ConsecutivoSubp>1</ConsecutivoSubp>
+						<NumSubpartida>3215190000</NumSubpartida>
+						<DesSubpartida>Las demás tintas de imprenta, incluso concentradas o sólidas.</DesSubpartida>
+						<UnidadMedida>BT</UnidadMedida>
+						<ValorSubp>1000</ValorSubp>
+						<Productos>
+							<Producto>
+								<ConsecutivoItem>1</ConsecutivoItem>
+								<DesProducto>PRODUCTO: TINTA ESTENCIL ZANASI BLANCA, ORIGEN: SINTETICO, COMPOSICION:  BUTANONA, ETIL-METIL-CETONA No CAS 78-93-3 50-80%; NITROCELULOSA CONCENTRACION 12.6% DEL NITROGENO No CAS: 9004-70-0 PORCENTAJE 5-10%; N-ETHYL-2-PYRROLIDON No CAS 2687-91-4  PORCENTAJE 3-4%; PROPAN-2-O1, ALCOHOL ISOPROPILICO ISOPORPANOL No CAS 67-63-0 PORCENTAJE 1-3%. ASPECTO FISICO: LIQUIDO CLARO, INCOLORO CON OLOR AGRADABLE, TIPO DE EMPAQUE: ENVASES PLASTICOS DE 5 GALONES. USO: TINTA PARA CODIFICADORES INDUSTRIALES DEL INKJET PINTURA PARA ESTARCIDO; COLOR: BLANCO; EQUIPO DE ESTARCIDO: ESTENCILADORA ZANASI;, MARCA: ZANASI, REFERENCIA: D00192 (DOD192) CONCEPTO TECNICO No OFI17-0018043-SCF-3310. EXT17-0021264, EXT17-0021586.</DesProducto>
+								<CantidadProducto>100.00000000</CantidadProducto>
+								<PrecioUnitario>4</PrecioUnitario>
+								<ValorTotalItem>400</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos/>
+							</Producto>
+							<Producto>
+								<ConsecutivoItem>2</ConsecutivoItem>
+								<DesProducto>REF. 92-007-660. PRODUCTO: LENS PRE-WIPE SOLUTION, 1 PINT (DANGEROUS),7120007, Nombre técnico o genérico: ESTERES DE PROPILENGLYCOL Y ALCOHOL ISO PROPILICO. Indicar nombre técnico de los componentes principales: ETERES DE PRILENGICOL Y ALCOHOL ISOPROPILICO. Aspecto físico: LIQUIDO. Uso:industrial para laboratorio . Nombre Químico Específico. MEZCLA ALIPATICA DE ETERES DE PRILENGICOL Y ALCOHOL ISOPROPILICO, N&amp;#186; CAS; 67-63-0 / ALCOHOL ISOPROPOILICO,1-PROPOSY-2-PROPANOL 1569-01-3 / 2-PROPOXY-1-PROPANOL. 7732-18-5, AGUA.7732-18-5, Nombre comercial. LENS PRE-WIPE SOLUTION; Calidad y pureza. OSHA, 100%,Concentración; 100% SOLUBLE EN AGUA, Empresa fabricante y país; LENS TECHNOLOGY INTENATIONAL ESTADOS UNIDOS, FRASCOS PLASTICOS , MARCA. SATISLOH LTF, TIPO DE EMPAQUE: FRASCO PLASTICO X 16 OZ //MERCANCIA NUEVA, AÑO DE FABRICACIÓN DE ENERO DEL 2017 A DICIEMBRE DEL 2019 // AUTORIZACIÓN EXTRAORDINARIA  DEL MINISTERIO DE JUSTICIA Y DEL DERECHO No. 108914, VIGENCIA DESDE 2019-04-25 HASTA 2019-07-25 // CONCEPTO TECNICO OFI15-0021790-SCF-3310 //  CANTIDAD TOTAL:9 FRASCOS=3.55 KG // 3 FRASCOS AUTORIZADOS POR CADA MES (LICENCIA DURA 3 MESES VIGENTE)</DesProducto>
+								<CantidadProducto>200.00000000</CantidadProducto>
+								<PrecioUnitario>3</PrecioUnitario>
+								<ValorTotalItem>600</ValorTotalItem>
+								<PaisOrigen>US|</PaisOrigen>
+								<Permisos>
+									<Permiso>
+										<NombreDocumento>Certificado de Carencia de Informes por Tráfico de Estupefacientes (CCITE)</NombreDocumento>
+										<TipoDocumento>AUTORIZACION EXTRAORDINARIA</TipoDocumento>
+									</Permiso>
+								</Permisos>								
+							</Producto>
+						</Productos>
+					</Subpartida>
+				</Subpartidas>
+        </SolicitudLicenciaImportacion>
+      
+31/01/2020 5:07:08 p. m. Deserialización del XML de Solicitud de Importación exitosa.
+31/01/2020 5:07:15 p. m. Formulario de Solicitud TML-I-0158002-20200110.
+31/01/2020 5:07:15 p. m. Validación de Tipo de Solicitud exitosa.
+31/01/2020 5:07:15 p. m. Validación de Clase de Importador exitosa.
+31/01/2020 5:07:15 p. m. Validación de Tipo de Cancelación fallida.
+31/01/2020 5:07:15 p. m. Validación de Vía de Transporte exitosa.
+31/01/2020 5:07:15 p. m. Validación de Aduana exitosa.
+31/01/2020 5:07:15 p. m. Validación Paí exitosa.
+31/01/2020 5:07:16 p. m. Listo para Insertar nueva Solicitud de Importación.
+31/01/2020 5:07:17 p. m. Insertada nueva Solicitud de Importación.
+31/01/2020 5:07:17 p. m. Obteniendo Id del país Dummy.
+31/01/2020 5:07:17 p. m. Recuperando Id del Puerto exitosa.
+31/01/2020 5:07:18 p. m. Insertando Puertos de Embarques asociado a la solicitud.
+31/01/2020 5:07:18 p. m. Actualizado Solicitudes especiales de la Solicitud.
+31/01/2020 5:07:18 p. m. Validación de Unidad.
+31/01/2020 5:07:19 p. m. Inserción de Subpartida exitosa.
+31/01/2020 5:07:20 p. m. Inserción de  Productos o Items de SubPartida.
+31/01/2020 5:07:20 p. m. Validación Paí exitosa.
+31/01/2020 5:07:20 p. m. Inserción de País de Origen asociado al producto (o item de subpartida).
+31/01/2020 5:07:24 p. m. Inserción de  Productos o Items de SubPartida.
+31/01/2020 5:07:24 p. m. Validación Paí exitosa.
+31/01/2020 5:07:24 p. m. Inserción de País de Origen asociado al producto (o item de subpartida).
+31/01/2020 5:07:26 p. m. Recuperando Info de la Solicitud recien creada.
+31/01/2020 5:07:26 p. m. Recuperado Id del tipo de Workflow.
+31/01/2020 5:07:26 p. m. Recuperando Id Estado Workflow.
+31/01/2020 5:07:26 p. m. Insertado workflow en la Cola.

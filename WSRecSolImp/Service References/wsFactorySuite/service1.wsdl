@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServicioFactorySuite" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSHttpBinding_IServicioFactorySuite_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ServicioFactorySuite" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServicioFactorySuite_AutenticarUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:AutenticarUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_AutenticarUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AutenticarUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_AutenticarUsuarioTipoAutenticacionExterna_InputMessage">
+    <wsdl:part name="parameters" element="tns:AutenticarUsuarioTipoAutenticacionExterna" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_AutenticarUsuarioTipoAutenticacionExterna_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AutenticarUsuarioTipoAutenticacionExternaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_AutenticarUsuarioFirmaDigital_InputMessage">
+    <wsdl:part name="parameters" element="tns:AutenticarUsuarioFirmaDigital" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_AutenticarUsuarioFirmaDigital_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AutenticarUsuarioFirmaDigitalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_CerrarSesionUsuario_InputMessage">
+    <wsdl:part name="parameters" element="tns:CerrarSesionUsuario" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_CerrarSesionUsuario_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CerrarSesionUsuarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerLista_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerLista" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerLista_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaVacia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaVacia" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaVacia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaVaciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerEmpleado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerEmpleado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ActualizarEmpleado_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ActualizarEmpleado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_EliminarEmpleado_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_EliminarEmpleado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_InsertarEmpleado_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_InsertarEmpleado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_InsertarEmpleadoClase_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEmpleadoClase" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_InsertarEmpleadoClase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertarEmpleadoClaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_EncriptarClaves_InputMessage">
+    <wsdl:part name="parameters" element="tns:EncriptarClaves" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_EncriptarClaves_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EncriptarClavesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ActualizarEsquemaFormularios_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarEsquemaFormularios" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ActualizarEsquemaFormularios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActualizarEsquemaFormulariosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ListarReportes_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarReportes" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ListarReportes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarReportesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ConsultarDatosReporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarDatosReporte" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ConsultarDatosReporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarDatosReporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerReporteDesdeBD_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReporteDesdeBD" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerReporteDesdeBD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerReporteDesdeBDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_GuardarReporte_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarReporte" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_GuardarReporte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarReporteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ListarDashboards_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarDashboards" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ListarDashboards_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarDashboardsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ConsultarDatosDashboard_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarDatosDashboard" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ConsultarDatosDashboard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarDatosDashboardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerDashboardDesdeBD_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDashboardDesdeBD" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerDashboardDesdeBD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDashboardDesdeBDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_GuardarDashboard_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarDashboard" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_GuardarDashboard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarDashboardResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_EjecutarOperacion_InputMessage">
+    <wsdl:part name="parameters" element="tns:EjecutarOperacion" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_EjecutarOperacion_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EjecutarOperacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_EjecutarOperacionMoviles_InputMessage">
+    <wsdl:part name="parameters" element="tns:EjecutarOperacionMoviles" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_EjecutarOperacionMoviles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EjecutarOperacionMovilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ListarWorkflows_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListarWorkflows" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ListarWorkflows_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListarWorkflowsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerWorkflowDesdeBD_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerWorkflowDesdeBD" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerWorkflowDesdeBD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerWorkflowDesdeBDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_GuardarWorkflow_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarWorkflow" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_GuardarWorkflow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarWorkflowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaFormularios_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaFormularios" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaFormularios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaFormulariosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaPrioridades_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaPrioridades" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaPrioridades_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaPrioridadesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaUsuarios_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaUsuarios" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaUsuarios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaUsuariosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaRoles_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaRoles" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaRoles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaRolesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaPuestos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaPuestos" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaPuestos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaPuestosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaComandos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaComandos" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaComandos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaComandosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaEstadosProceso_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaEstadosProceso" />
+  </wsdl:message>
+  <wsdl:message name="IServicioFactorySuite_ObtenerListaEstadosProceso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerListaEstadosProcesoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicioFactorySuite">
+    <wsdl:operation name="AutenticarUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/AutenticarUsuario" message="tns:IServicioFactorySuite_AutenticarUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/AutenticarUsuarioResponse" message="tns:IServicioFactorySuite_AutenticarUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarUsuarioTipoAutenticacionExterna">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/AutenticarUsuarioTipoAutenticacionExterna" message="tns:IServicioFactorySuite_AutenticarUsuarioTipoAutenticacionExterna_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/AutenticarUsuarioTipoAutenticacionExternaResponse" message="tns:IServicioFactorySuite_AutenticarUsuarioTipoAutenticacionExterna_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarUsuarioFirmaDigital">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/AutenticarUsuarioFirmaDigital" message="tns:IServicioFactorySuite_AutenticarUsuarioFirmaDigital_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/AutenticarUsuarioFirmaDigitalResponse" message="tns:IServicioFactorySuite_AutenticarUsuarioFirmaDigital_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CerrarSesionUsuario">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/CerrarSesionUsuario" message="tns:IServicioFactorySuite_CerrarSesionUsuario_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/CerrarSesionUsuarioResponse" message="tns:IServicioFactorySuite_CerrarSesionUsuario_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLista">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerLista" message="tns:IServicioFactorySuite_ObtenerLista_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaResponse" message="tns:IServicioFactorySuite_ObtenerLista_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaVacia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaVacia" message="tns:IServicioFactorySuite_ObtenerListaVacia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaVaciaResponse" message="tns:IServicioFactorySuite_ObtenerListaVacia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEmpleado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerEmpleado" message="tns:IServicioFactorySuite_ObtenerEmpleado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerEmpleadoResponse" message="tns:IServicioFactorySuite_ObtenerEmpleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEmpleado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ActualizarEmpleado" message="tns:IServicioFactorySuite_ActualizarEmpleado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ActualizarEmpleadoResponse" message="tns:IServicioFactorySuite_ActualizarEmpleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEmpleado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/EliminarEmpleado" message="tns:IServicioFactorySuite_EliminarEmpleado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/EliminarEmpleadoResponse" message="tns:IServicioFactorySuite_EliminarEmpleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEmpleado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/InsertarEmpleado" message="tns:IServicioFactorySuite_InsertarEmpleado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/InsertarEmpleadoResponse" message="tns:IServicioFactorySuite_InsertarEmpleado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEmpleadoClase">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/InsertarEmpleadoClase" message="tns:IServicioFactorySuite_InsertarEmpleadoClase_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/InsertarEmpleadoClaseResponse" message="tns:IServicioFactorySuite_InsertarEmpleadoClase_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EncriptarClaves">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/EncriptarClaves" message="tns:IServicioFactorySuite_EncriptarClaves_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/EncriptarClavesResponse" message="tns:IServicioFactorySuite_EncriptarClaves_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEsquemaFormularios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ActualizarEsquemaFormularios" message="tns:IServicioFactorySuite_ActualizarEsquemaFormularios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ActualizarEsquemaFormulariosResponse" message="tns:IServicioFactorySuite_ActualizarEsquemaFormularios_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarReportes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ListarReportes" message="tns:IServicioFactorySuite_ListarReportes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ListarReportesResponse" message="tns:IServicioFactorySuite_ListarReportes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarDatosReporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ConsultarDatosReporte" message="tns:IServicioFactorySuite_ConsultarDatosReporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ConsultarDatosReporteResponse" message="tns:IServicioFactorySuite_ConsultarDatosReporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReporteDesdeBD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerReporteDesdeBD" message="tns:IServicioFactorySuite_ObtenerReporteDesdeBD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerReporteDesdeBDResponse" message="tns:IServicioFactorySuite_ObtenerReporteDesdeBD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardarReporte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/GuardarReporte" message="tns:IServicioFactorySuite_GuardarReporte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/GuardarReporteResponse" message="tns:IServicioFactorySuite_GuardarReporte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarDashboards">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ListarDashboards" message="tns:IServicioFactorySuite_ListarDashboards_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ListarDashboardsResponse" message="tns:IServicioFactorySuite_ListarDashboards_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarDatosDashboard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ConsultarDatosDashboard" message="tns:IServicioFactorySuite_ConsultarDatosDashboard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ConsultarDatosDashboardResponse" message="tns:IServicioFactorySuite_ConsultarDatosDashboard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDashboardDesdeBD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerDashboardDesdeBD" message="tns:IServicioFactorySuite_ObtenerDashboardDesdeBD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerDashboardDesdeBDResponse" message="tns:IServicioFactorySuite_ObtenerDashboardDesdeBD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardarDashboard">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/GuardarDashboard" message="tns:IServicioFactorySuite_GuardarDashboard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/GuardarDashboardResponse" message="tns:IServicioFactorySuite_GuardarDashboard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarOperacion">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/EjecutarOperacion" message="tns:IServicioFactorySuite_EjecutarOperacion_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/EjecutarOperacionResponse" message="tns:IServicioFactorySuite_EjecutarOperacion_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarOperacionMoviles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/EjecutarOperacionMoviles" message="tns:IServicioFactorySuite_EjecutarOperacionMoviles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/EjecutarOperacionMovilesResponse" message="tns:IServicioFactorySuite_EjecutarOperacionMoviles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListarWorkflows">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ListarWorkflows" message="tns:IServicioFactorySuite_ListarWorkflows_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ListarWorkflowsResponse" message="tns:IServicioFactorySuite_ListarWorkflows_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerWorkflowDesdeBD">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerWorkflowDesdeBD" message="tns:IServicioFactorySuite_ObtenerWorkflowDesdeBD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerWorkflowDesdeBDResponse" message="tns:IServicioFactorySuite_ObtenerWorkflowDesdeBD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardarWorkflow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/GuardarWorkflow" message="tns:IServicioFactorySuite_GuardarWorkflow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/GuardarWorkflowResponse" message="tns:IServicioFactorySuite_GuardarWorkflow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaFormularios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaFormularios" message="tns:IServicioFactorySuite_ObtenerListaFormularios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaFormulariosResponse" message="tns:IServicioFactorySuite_ObtenerListaFormularios_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaPrioridades">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaPrioridades" message="tns:IServicioFactorySuite_ObtenerListaPrioridades_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaPrioridadesResponse" message="tns:IServicioFactorySuite_ObtenerListaPrioridades_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaUsuarios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaUsuarios" message="tns:IServicioFactorySuite_ObtenerListaUsuarios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaUsuariosResponse" message="tns:IServicioFactorySuite_ObtenerListaUsuarios_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaRoles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaRoles" message="tns:IServicioFactorySuite_ObtenerListaRoles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaRolesResponse" message="tns:IServicioFactorySuite_ObtenerListaRoles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaPuestos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaPuestos" message="tns:IServicioFactorySuite_ObtenerListaPuestos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaPuestosResponse" message="tns:IServicioFactorySuite_ObtenerListaPuestos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaComandos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaComandos" message="tns:IServicioFactorySuite_ObtenerListaComandos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaComandosResponse" message="tns:IServicioFactorySuite_ObtenerListaComandos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaEstadosProceso">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaEstadosProceso" message="tns:IServicioFactorySuite_ObtenerListaEstadosProceso_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServicioFactorySuite/ObtenerListaEstadosProcesoResponse" message="tns:IServicioFactorySuite_ObtenerListaEstadosProceso_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_IServicioFactorySuite" type="tns:IServicioFactorySuite">
+    <wsp:PolicyReference URI="#WSHttpBinding_IServicioFactorySuite_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AutenticarUsuario">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/AutenticarUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarUsuarioTipoAutenticacionExterna">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/AutenticarUsuarioTipoAutenticacionExterna" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutenticarUsuarioFirmaDigital">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/AutenticarUsuarioFirmaDigital" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CerrarSesionUsuario">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/CerrarSesionUsuario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerLista">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerLista" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaVacia">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerListaVacia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ActualizarEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/EliminarEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/InsertarEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertarEmpleadoClase">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/InsertarEmpleadoClase" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EncriptarClaves">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/EncriptarClaves" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActualizarEsquemaFormularios">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ActualizarEsquemaFormularios" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarReportes">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ListarReportes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarDatosReporte">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ConsultarDatosReporte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReporteDesdeBD">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerReporteDesdeBD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardarReporte">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/GuardarReporte" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarDashboards">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ListarDashboards" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarDatosDashboard">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ConsultarDatosDashboard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDashboardDesdeBD">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerDashboardDesdeBD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardarDashboard">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/GuardarDashboard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarOperacion">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/EjecutarOperacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EjecutarOperacionMoviles">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/EjecutarOperacionMoviles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListarWorkflows">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ListarWorkflows" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerWorkflowDesdeBD">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerWorkflowDesdeBD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardarWorkflow">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/GuardarWorkflow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaFormularios">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerListaFormularios" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaPrioridades">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerListaPrioridades" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaUsuarios">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerListaUsuarios" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaRoles">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerListaRoles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaPuestos">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerListaPuestos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaComandos">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerListaComandos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerListaEstadosProceso">
+      <soap12:operation soapAction="http://tempuri.org/IServicioFactorySuite/ObtenerListaEstadosProceso" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioFactorySuite">
+    <wsdl:port name="WSHttpBinding_IServicioFactorySuite" binding="tns:WSHttpBinding_IServicioFactorySuite">
+      <soap12:address location="http://localhost:8987/ServicioFactorySuite.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://localhost:8987/ServicioFactorySuite.svc</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

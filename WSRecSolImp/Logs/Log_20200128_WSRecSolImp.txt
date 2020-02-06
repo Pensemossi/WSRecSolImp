@@ -1,0 +1,33 @@
+28/01/2020 3:24:51 p. m. Acceso a la Base de datos SICOQ exitoso.
+28/01/2020 3:24:51 p. m. Validación de usuario.
+28/01/2020 3:25:24 p. m. Formulario de Solicitud LIC-21809705-19092016.
+28/01/2020 3:25:25 p. m. Validación de Tipo de Solicitud.
+28/01/2020 3:25:25 p. m. Validación de Clase de Importador.
+28/01/2020 3:25:25 p. m. Validación de Tipo de Cancelación.
+28/01/2020 3:25:25 p. m. Validación de Vía de Transporte.
+28/01/2020 3:25:25 p. m. Validación de Aduana.
+28/01/2020 3:25:25 p. m. Validación País.
+28/01/2020 3:25:25 p. m. País encontrado.
+28/01/2020 3:26:41 p. m. Reacitvar una solicitud ---> Reapertura
+28/01/2020 3:30:12 p. m. Listo para realizar la reapertura de la Solicitud de Importación: LIC-21809705-19092016
+28/01/2020 3:30:27 p. m. Reapertura de Solicitud de Importación exitosa.
+28/01/2020 3:30:35 p. m. Validación de Puerto.
+28/01/2020 3:30:35 p. m. Obteniendo Id del país Dummy.
+28/01/2020 3:30:35 p. m. Recuperando Id del Puerto.
+28/01/2020 3:30:36 p. m. Listo para Insertar entrada en FSLogErrores.
+28/01/2020 3:30:36 p. m. Insertando en la tabla [FSLogErrores].
+28/01/2020 3:30:36 p. m. Actualizando Solicitudes especiales de la Solicitud.
+28/01/2020 3:30:36 p. m. Validación de Unidad.
+28/01/2020 3:30:37 p. m. Listo para Insertar entrada en FSLogErrores.
+28/01/2020 3:30:37 p. m. Insertando en la tabla [FSLogErrores].
+28/01/2020 3:30:37 p. m. Listo para Insertar entrada en FSLogErrores.
+28/01/2020 3:30:37 p. m. Insertando en la tabla [FSLogErrores].
+28/01/2020 3:30:37 p. m. Listo para Insertar entrada en FSLogErrores.
+28/01/2020 3:30:37 p. m. Insertando en la tabla [FSLogErrores].
+28/01/2020 3:30:37 p. m. Listo para Insertar entrada en FSLogErrores.
+28/01/2020 3:30:37 p. m. Insertando en la tabla [FSLogErrores].
+28/01/2020 3:30:37 p. m. Listo para Insertar entrada en FSLogErrores.
+28/01/2020 3:30:37 p. m. Insertando en la tabla [FSLogErrores].
+28/01/2020 3:30:37 p. m. Recuperando Id de Tipo de Solicitud.
+28/01/2020 3:30:37 p. m. Listo para Insertar entrada en FSLogErrores.
+28/01/2020 3:30:38 p. m. Insertando en la tabla [FSLogErrores].

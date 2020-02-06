@@ -1,0 +1,4 @@
+26/12/2019 9:06:40 p. m. No es posible acceder a la Base de datos SICOQ
+26/12/2019 9:15:24 p. m. No es posible acceder a la Base de datos SICOQ
+26/12/2019 9:15:43 p. m. ORA-12170: TNS:Se ha producido un timeout de conexión
+

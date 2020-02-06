@@ -1,0 +1,4 @@
+9/01/2020 8:29:11 a. m. Acceso a la Base de datos SICOQ exitoso.
+9/01/2020 8:31:34 a. m. Acceso a la Base de datos SICOQ exitoso.
+9/01/2020 8:41:22 a. m. Acceso a la Base de datos SICOQ exitoso.
+9/01/2020 9:56:16 a. m. Acceso a la Base de datos SICOQ exitoso.

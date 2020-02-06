@@ -1,0 +1,2 @@
+22/01/2020 5:11:01 p. m. Acceso a la Base de datos SICOQ exitoso.
+22/01/2020 5:11:03 p. m. Validación de usuario.

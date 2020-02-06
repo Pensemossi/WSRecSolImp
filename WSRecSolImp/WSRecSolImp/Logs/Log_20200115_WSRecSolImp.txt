@@ -1,0 +1,27 @@
+15/01/2020 8:05:58 a. m. Acceso a la Base de datos SICOQ exitoso.
+15/01/2020 8:05:58 a. m. Validación de usuario.
+15/01/2020 8:05:58 a. m. Formulario de Solicitud TML-I-0155073-20190827.
+15/01/2020 8:05:58 a. m. Validación de Tipo de Solicitud.
+15/01/2020 8:05:58 a. m. Validación de Clase de Importador.
+15/01/2020 8:05:58 a. m. Validación de Tipo de Cancelación.
+15/01/2020 8:05:58 a. m. Validación de Vía de Transporte.
+15/01/2020 8:05:58 a. m. Validación de Aduana.
+15/01/2020 8:06:55 a. m. Validación País.
+15/01/2020 8:10:01 a. m. Insertando nueva Solicitud de Importación.
+15/01/2020 8:10:01 a. m. Validación de Puerto.
+15/01/2020 8:10:01 a. m. Obteniendo Id del país Dummy.
+15/01/2020 8:10:01 a. m. Recuperando Id del Puerto.
+15/01/2020 8:10:32 a. m. Insertando Puertos de Embarques asociado a la solicitud.
+15/01/2020 8:10:32 a. m. Actualizando Solicitudes especiales de la Solicitud.
+15/01/2020 8:10:32 a. m. Validación de Unidad.
+15/01/2020 8:10:32 a. m. Insertando Subpartidas.
+15/01/2020 8:10:32 a. m. Insertando Productos.
+15/01/2020 8:10:32 a. m. Validación País.
+15/01/2020 8:10:32 a. m. Insertando País de Origen asociado al producto.
+15/01/2020 8:10:32 a. m. Insertando Productos.
+15/01/2020 8:10:32 a. m. Validación País.
+15/01/2020 8:10:33 a. m. Insertando País de Origen asociado al producto.
+15/01/2020 8:10:33 a. m. Recuperando Info de la Solicitud recien creada.
+15/01/2020 8:10:33 a. m. Recuperando Id del tipo de Workflow.
+15/01/2020 8:10:33 a. m. Recuperando Id Estado Workflow.
+15/01/2020 8:10:33 a. m. Insertando Flujo en la Cola.

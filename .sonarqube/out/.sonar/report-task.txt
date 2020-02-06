@@ -1,0 +1,6 @@
+projectKey=WSInicial
+serverUrl=http://192.168.0.23
+serverVersion=7.9.1.27448
+dashboardUrl=http://192.168.0.23/dashboard?id=WSInicial
+ceTaskId=AW1w42sca1DZSX5O25fh
+ceTaskUrl=http://192.168.0.23/api/ce/task?id=AW1w42sca1DZSX5O25fh

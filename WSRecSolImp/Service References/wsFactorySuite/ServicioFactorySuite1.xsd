@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ServicioFactorySuite" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ServicioFactorySuite" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfempleado">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="empleado" nillable="true" type="tns:empleado" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfempleado" nillable="true" type="tns:ArrayOfempleado" />
+  <xs:complexType name="empleado">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="cedula" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="tipoidentificacion" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="empleado" nillable="true" type="tns:empleado" />
+  <xs:complexType name="retorno">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="retorno" nillable="true" type="tns:retorno" />
+</xs:schema>
